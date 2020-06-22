@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: url(../img/home.jpg) no-repeat left top;
+  background-size: 100% 400px !important;
+}
+
+/* 游戏开始 */
+.game_start {
+  width: 300px;
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+.game_start .logo {
+  width: 100%;
+}
+
+.game_start .processing {
+  width: 200px;
+  height: 41px;
+  margin: 40px auto 40px;
+  /* background: url(../img/loading.png) no-repeat left top; */
+  animation: processing_effect 1.5s steps(3) both infinite;
+  -webkit-animation: processing_effect 1.5s steps(3) both infinite;
+}
+
+.game_start .btn {
+  width: 70%;
+  border: 3px solid #3a3939;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 42px;
+  font-size: 22px;
+  margin: 0 auto;
+  cursor: pointer;
+  color: #3a3939;
+  font-weight: bold;
+}
+.mouse {
+  position: fixed;
+  width: 94px;
+  height: 64px;
+  z-index: 3;
+  background: url(../img/mouse.jpg) no-repeat left top;
+  background-size: 100px;
+}
