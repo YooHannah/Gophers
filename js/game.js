@@ -56,6 +56,7 @@ class Game {
   }
   startEnemy() {
     let createEnemy = () => {
+      console.log(111)
       let count = parseInt(Math.random()*17)
       let arr = []
       for(let i = 0;i<count;i++){
@@ -86,7 +87,7 @@ class Game {
       setTimeout(aa,0)
       clearInterval(this.enemyTimer)
     }
-    setTimeout(stop,30000)
+    setTimeout(stop,10000)
   }
   initMusic() {
     this.endMusic = new Music("game_over");

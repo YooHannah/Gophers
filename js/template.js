@@ -1,5 +1,5 @@
 export default {
-  // 飞机
+  // 地鼠
   mouse: `<div class="mouse"></div>`,
   // 计分板
   score: `
